@@ -47,7 +47,7 @@ h1 {
     flex: 1;
 }
 
-.grid {
+#grid {
     border: 2px solid red;
     width: 60vmin;
     height: 60vmin;
@@ -55,12 +55,12 @@ h1 {
     flex-direction: column;
 }
 
-.row {
+#grid .row {
     display: flex;
     flex: 1;
 }
 
-.cell {
+#grid .cell {
     border-left: 1px dotted black;
     border-bottom: 1px dotted black;
     flex: 1;

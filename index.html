@@ -10,27 +10,13 @@
   <h1>Etch-a-Sketch</h1>
   <div class="size-selector">
     How many squares?
-    <input type="range" min="1" max="64" value="10">
-    <p>Size <span>10</span> grid</p>
+    <input id="slider" type="range" min="1" max="64" value="10">
+    <p>Size <span id="size-text">10</span> grid</p>
   </div>
   <div class="container">
-    <div class="grid">
-      <div class="row">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-      </div>
-      <div class="row">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-
-      </div>
-      <div class="row">
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-      </div>
+    <div id="grid">
+      <!-- <div class="row"><div class="cell"></div><div class="cell"></div><div class="cell"></div></div> -->
+      <!-- <div class="row"><div class="cell"></div><div class="cell"></div><div class="cell"></div></div> -->
     </div>
   </div>
   <div class="footer">
