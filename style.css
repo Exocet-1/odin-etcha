@@ -61,6 +61,7 @@ h1 {
 }
 
 #grid .cell {
+    background-color: aliceblue;
     border-left: 1px dotted black;
     border-bottom: 1px dotted black;
     flex: 1;
